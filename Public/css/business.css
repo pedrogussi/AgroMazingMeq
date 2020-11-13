@@ -1,0 +1,68 @@
+#page-business{ 
+    display: flex;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+.business-card {
+    width: 700px;
+    margin: 6.4rem auto;
+    background:linear-gradient(329.54deg, rgb(130, 156, 197) 0%, rgb(82, 122, 185)100%);
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 8rem;
+}
+
+fieldset {
+    border: 0;
+}
+fieldset legend {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 1.5rem;
+
+    color: rgb(16, 194, 149);
+    font-weight: 700;
+
+    border-bottom: 1px solid #d3e2e5;
+    margin-bottom: 4rem;
+    padding: 2.4rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards a {
+    border: 1px solid #3f8f67;
+    width: 100%;
+    background: rgb(16, 194, 149);
+    height: 6.4rem;
+    padding: 0 1.6rem;
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    flex-direction: initial;
+    text-decoration: none;
+
+}
+.cards a h1{
+    font-size: 22px;
+    color:  rgb(82, 122, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards a p{
+    font-size: 22px;
+    color:  rgb(0, 51, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
