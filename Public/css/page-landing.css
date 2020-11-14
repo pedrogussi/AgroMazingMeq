@@ -54,6 +54,9 @@ main h1 {
       justify-content: space-between;
       
     }
+    header a {
+        font-size: 20px;
+    }
     .location, h1, .visit p{
         height: initial;
         text-align: initial;

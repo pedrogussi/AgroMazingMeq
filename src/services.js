@@ -23,7 +23,7 @@ function addMarker({AgroMazing}) {
 
 
 L.marker([-23.7594344, -53.3092236], {icon}).addTo(map)
-    .bindPopup(`Conheça a AgroMazing <a href="service.html"> <img src = "../../Public/assets/seta-fina.svg"></a>`)
+    .bindPopup(`Trator John Deere 5078 <a href="service.html"> <img src = "../../Public/assets/seta-fina.svg"></a>`)
     .openPopup();
 
 

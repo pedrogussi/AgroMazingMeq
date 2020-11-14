@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="../../Public/css/main.css">
     <link rel="stylesheet" href="../../Public/css/animation.css">
-    <link rel="stylesheet" href="../../Public/css/business.css">
+    <link rel="stylesheet" href="../../Public/css/login.css">
     <link rel="stylesheet" href="../../Public/css/sidebar.css">
     <!-- <link rel="stylesheet" href="../../Public/css/map.css"> -->
     <!-- <link rel="stylesheet" href="../../Public/css/forms.css"> -->
@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <div id="page-business">
+    <div id="page-login">
         <aside class="animate-right sidebar">
             <img src="../../Public/assets/LOGO-SEM-NOME-2.png" alt="Logo">
             <footer>
@@ -38,30 +38,23 @@
             </footer>
         </aside>
         <main class="animate-appear with-sidebar">
-            <div class="business-card">
+            <div class="login-card">
                 <fieldset>
-                    <legend>Escolha seu plano</legend>
-                    <div class="cards">
-                        <h2>Veja os planos disponiveis que mais se encaixam ao seu bolso</h2>
+                    <legend>Faça seu login</legend>
+                    
                         
-                        <a href="../../src/views/create-service.html">
-                            <h1>Pacote de Demonstração</h1>
-                            <p>30 Dias grátis</p>
-                        </a>
-                        <a href="../../src/views/create-service.html">
-                            <h1>Pacote inicial (Trimestral)</h1>
-                            <p>Plano disponível por R$ 60,00</p>
-                        </a>
-                        <a href="../../src/views/create-service.html">
-                            <h1>Pacote intermediário (Semestral)</h1>
-                            <p>Plano disponível por R$ 100,00</p>
-                        </a>
-                        <a href="../../src/views/create-service.html">
-                            <h1>Pacote FazendeiroMazing (Anual)</h1>
-                            <p>Plano disponível por R$ 168,00</p>
-                        </a>
+                        <div class="input-block">
+                            <label for="about">Nome ou Email</label>
+                            <input id="name" name="name" type="text" required>
+                        </div>
+                        <div class="input-block">
+                            <label for="about">Senha</label>
+                            <input id="password" name="password" type="password" required>
+                        </div>
 
-                    </div>
+                        <a href="../../src/views/user-login.html" type="button">Entrar</a>
+                        
+                   
                 </fieldset>
             </div>
         </main>

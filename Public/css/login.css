@@ -1,0 +1,98 @@
+#page-login{ 
+    display: flex;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+.business-card {
+    width: 700px;
+    margin: 6.4rem auto;
+    background:linear-gradient(329.54deg, rgb(130, 156, 197) 0%, rgb(82, 122, 185)100%);
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 8rem;
+}
+
+fieldset {
+    border: 0;
+}
+fieldset legend {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 1.5rem;
+
+    color: rgb(16, 194, 149);
+    font-weight: 700;
+
+    border-bottom: 1px solid #d3e2e5;
+    margin-bottom: 4rem;
+    padding: 2.4rem;
+}
+.login-card {
+    width: 700px;
+    margin: 6.4rem auto;
+    background:linear-gradient(329.54deg, rgb(130, 156, 197) 0%, rgb(82, 122, 185)100%);
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 8rem;
+}
+
+fieldset {
+    border: 0;
+}
+fieldset legend {
+    width: 100%;
+    font-size: 3.2rem;
+    line-height: 1.5rem;
+
+    color: rgb(16, 194, 149);
+    font-weight: 700;
+
+    border-bottom: 1px solid #d3e2e5;
+    margin-bottom: 4rem;
+    padding: 2.4rem;
+}
+
+/* .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} */
+.input-block label {
+    color: rgb(171, 189, 184);
+    margin-bottom: .8rem;
+    line-height: 1.5;
+}
+.input-block input {
+    width: 100%;
+    height: 6.4rem;
+    padding: 0 1.6rem;
+    background: rgb(194, 197, 194);
+    border: 1px solid #d3e2e5;
+    border-radius: 2rem;
+
+    color: teal;
+    outline: none;
+}
+
+
+a {
+    text-decoration: none;
+    margin-top: 6.4rem;
+    width: 100%;
+    height: 6.4rem;
+    border: 0;
+    cursor: pointer;
+    background: rgb(16, 194, 149);
+    border-radius: 2rem;
+    color: rgb(82, 122, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}

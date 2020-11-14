@@ -52,6 +52,7 @@ fieldset legend {
 
 }
 .cards a h1{
+    line-height: 32px;
     font-size: 22px;
     color:  rgb(82, 122, 185);
     display: flex;
@@ -65,4 +66,5 @@ fieldset legend {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
